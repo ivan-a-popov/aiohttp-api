@@ -1,1 +1,1 @@
-a draft for aiohttp API-server
+a draft for aiohttp-based REST API server
