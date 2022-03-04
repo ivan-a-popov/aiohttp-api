@@ -27,6 +27,7 @@ def error_json_response(http_status: int, status: str = 'error', message: Option
         })
 
 def check_basic_auth(raw_credentials: str, username: str, password: str) -> bool:
+    raw_credentials = raw_credentials.split(' ')[1] #  deleting 'Basic' from Authorization header
     credentials = base64.b64decode(raw_credentials).decode()
     parts = credentials.split(':')
     if len(parts) != 2:

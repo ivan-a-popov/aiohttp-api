@@ -5,6 +5,7 @@ from app.web.schemas import OkResponseSchema
 
 class UserAddSchema(Schema):
     email = fields.Str(required=True)
+    name = fields.Str(required=True)
 
 
 class UserSchema(UserAddSchema):

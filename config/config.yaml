@@ -1,3 +1,5 @@
 credentials:
   username: user
   password: password
+  db_host: localhost
+  db_name: test

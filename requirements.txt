@@ -1,3 +1,4 @@
 aiohttp==3.8.1
 aiohttp-apispec==2.2.2
 pyyaml==6.0
+gino==1.0.1

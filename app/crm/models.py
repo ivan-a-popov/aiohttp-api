@@ -6,3 +6,4 @@ from dataclasses import dataclass
 class User:
     id_: uuid.UUID
     email: str
+    name: str
